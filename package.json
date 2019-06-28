@@ -1,0 +1,41 @@
+{
+	"name": "ubuntuforterminal",
+	"displayName": "Ubuntu For Terminal",
+	"description": "Integrates the Ubuntu WSL into VS Code",
+	"version": "0.0.1",
+	"publisher": "Docter60",
+	"icon": "logo.png",
+	"readme": "README.md",
+	"engines": {
+		"vscode": "^1.35.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.newUbuntuTerminal"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.newUbuntuTerminal",
+				"title": "Open New Ubuntu Terminal"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^3.3.1",
+		"vscode": "^1.1.28",
+		"tslint": "^5.12.1",
+		"@types/node": "^10.12.21",
+		"@types/mocha": "^2.2.42"
+	}
+}
