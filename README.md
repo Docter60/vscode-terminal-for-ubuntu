@@ -4,10 +4,10 @@ Ubuntu For Terminal takes the Ubuntu version of WSL and allows Visual Studio Cod
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### Shortcut
+Ctrl+Alt+U  Open an Ubuntu terminal
 
-For example if there is an image subfolder under your extension project workspace:
-
+### Command Example
 ![Example](images/example.gif)
 
 ## Requirements
