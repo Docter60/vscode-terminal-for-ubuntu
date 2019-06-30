@@ -21,9 +21,16 @@ Ctrl+Alt+U  Open an Ubuntu terminal
 
 ## Known Issues
 
-None as far as I can tell. Please reach out to me on GitHub if you have any issues.
+Please reach out to me on GitHub if you have any issues that are not solved by the information provided below.
+
+### Error WSL not enabled
+Go to [this](https://docs.microsoft.com/en-us/windows/wsl/install-win10#troubleshooting) link and follow the instructions to enable WSL, then restart your computer.
 
 ## Release Notes
+
+### 0.0.2
+
+Minor edit to the documentation
 
 ### 0.0.1
 
