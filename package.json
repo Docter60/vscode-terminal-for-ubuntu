@@ -2,7 +2,7 @@
 	"name": "vscode-terminal-for-ubuntu",
 	"displayName": "VSCode Terminal For Ubuntu",
 	"description": "Integrates the Ubuntu WSL into VS Code",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "Docter60",
 	"icon": "logo.png",
 	"readme": "README.md",
